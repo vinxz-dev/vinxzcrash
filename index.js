@@ -1456,7 +1456,7 @@ function sendMainMenu(chatId, runtime, randomImage, isPremium) {
 • Prefix: / ( slash )
 • Language: JavaScript
 • Status      : ${isPremium ? "Premium" : "No Access"}
-#SELLECT THE BUTTON MENU`;
+`;
 
   const buttons = [
     [
