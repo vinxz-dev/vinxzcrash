@@ -1511,7 +1511,8 @@ bot.on("callback_query", async (callbackQuery) => {
 ⚊▣ /VenaUi 62xxx  
 ⚊▣ /VenaBlank 62xxx  
 ⚊▣ /Crot 62xxx  - combo all bug
-ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ ᴅɪ`;
+<blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
     newButtons = [
       [
@@ -1528,7 +1529,8 @@ bot.on("callback_query", async (callbackQuery) => {
 ⚊▣ /VenaRorw 62xxx  
 ⚊▣ /DenixVena 62xxx  
 ⚊▣ /Crot 62xxx  - combo all bug
-#SELLECT THE CMD`;
+<blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
     newButtons = [
       [
@@ -1553,7 +1555,8 @@ bot.on("callback_query", async (callbackQuery) => {
     
 ⚊▣ /testfunc  Reply Function To Test Function 
     ➥ /testfunc 62xxx,5
-#SELLECT THE CMD`;
+<blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
      newButtons = [
       [
@@ -1574,7 +1577,8 @@ bot.on("callback_query", async (callbackQuery) => {
 • /setjeda - s/m/d  
 • /connect - 62xx  
 • /gconly - on/off
-#SELLECT THE CMD`;
+<blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
     newButtons = [
       [
@@ -1597,7 +1601,8 @@ bot.on("callback_query", async (callbackQuery) => {
 • /cekganteng - cek ganteng  
 • /cekch - cek info channel
 • /getmediafire - download file - link Mediafire  
-#SELLECT THE CMD`;
+<blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
     newButtons = [
       [
@@ -1628,7 +1633,8 @@ bot.on("callback_query", async (callbackQuery) => {
 • /pin - pin pesan
 • /cfixeror - cek eror + saran fix eror
 • /fixerorr - fix eror JavaScript otomatis
-#SELLECT THE CMD`;
+<blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
     newButtons = [
       [
@@ -1649,7 +1655,8 @@ bot.on("callback_query", async (callbackQuery) => {
 • @NexiRajaIblis - my friends
 • @Mars4Sex - my friends
 • @VinxzGanteng - my friends
-#BIG RESPECT FOR ALL SUPPORT ME`;
+<blockquote>ᴛǫᴛᴏ ᴠᴇɴᴀᴛʀɪx ɪɴᴠɪᴄᴛᴜs</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
     newButtons = [
       [
@@ -1675,7 +1682,8 @@ bot.on("callback_query", async (callbackQuery) => {
 • @ZynStore2_my - pt me
 • @PutriStecu01 - pt me
 • @CrownBancet - pt me
-#BIG RESPECT FOR ALL SUPPORT ME`;
+<blockquote>ᴀʟʟ sᴜᴘᴘᴏʀᴛ ᴠᴇɴᴀᴛʀɪx ɪɴᴠɪᴄᴛᴜs</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
         newButtons = [
       [
@@ -1693,11 +1701,13 @@ bot.on("callback_query", async (callbackQuery) => {
 どうか 不正に使用しないでください。
 <blockquote><pre>⬡═―—⊱ ⎧ 𝗜𝗡𝗙𝗢𝗠𝗔𝗧𝗜𝗢𝗡 𝗕𝗢𝗧 ⎭ ⊰―—═⬡</pre></blockquote>
 • Developer: @VinxzGanteng
+• Developer²: @deni_not_style3
 • Version: 8.0 Vip buyer 
 • Prefix: / ( slash )
 • Language: JavaScript
 • Status      : ${isPremium ? "Premium" : "No Access"}
-#SELLECT THE BUTTON MENU`;
+<blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>`;
 
     newButtons = [
       [
