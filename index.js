@@ -1473,7 +1473,7 @@ function sendMainMenu(chatId, runtime, randomImage, isPremium) {
     [
       {
         text: "ᖫ X ᖭ Author",
-        url: "https://t.me/VinxzGanteng", style : "primary", 
+        url: "https://t.me/VinxzGanteng", style : "success", 
       },
       {
         text: "ᖫ X ᖭ Channel Author",
@@ -1511,7 +1511,7 @@ bot.on("callback_query", async (callbackQuery) => {
 ⚊▣ /VenaUi 62xxx  
 ⚊▣ /VenaBlank 62xxx  
 ⚊▣ /Crot 62xxx  - combo all bug
-#SELECT THE CMD`;
+<blockquote>ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ ᴅɪ</blockquotee>`;
 
     newButtons = [
       [
