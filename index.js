@@ -1452,10 +1452,13 @@ function sendMainMenu(chatId, runtime, randomImage, isPremium) {
 どうか 不正に使用しないでください。
 <blockquote><pre>⬡═―—⊱ ⎧ 𝗜𝗡𝗙𝗢𝗠𝗔𝗧𝗜𝗢𝗡 𝗕𝗢𝗧 ⎭ ⊰―—═⬡</pre></blockquote>
 • Developer: @VinxzGanteng
+• Developer²: @deni_not_style3
 • Version: 8.0 Vip buyer 
 • Prefix: / ( slash )
 • Language: JavaScript
 • Status      : ${isPremium ? "Premium" : "No Access"}
+<blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
+<blockquote>VinxzOfficial[🌚]</blockquote>
 `;
 
   const buttons = [
