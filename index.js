@@ -1451,12 +1451,12 @@ function sendMainMenu(chatId, runtime, randomImage, isPremium) {
 私は @VinxzGanteng によって、あなたを支援するための Telegram・WhatsApp ボット として作成されました。
 どうか 不正に使用しないでください。
 <blockquote><pre>⬡═―—⊱ ⎧ 𝗜𝗡𝗙𝗢𝗠𝗔𝗧𝗜𝗢𝗡 𝗕𝗢𝗧 ⎭ ⊰―—═⬡</pre></blockquote>
-• Developer: @VinxzGanteng
-• Developer²: @deni_not_style3
-• Version: 8.0 Vip buyer 
-• Prefix: / ( slash )
-• Language: JavaScript
-• Status      : ${isPremium ? "Premium" : "No Access"}
+⫹⫺ Developer: @VinxzGanteng
+⫹⫺ Developer²: @deni_not_style3
+⫹⫺ Version: 8.0 Vip buyer 
+⫹⫺ Prefix: / ( slash )
+⫹⫺ Language: JavaScript
+⫹⫺ Status      : ${isPremium ? "Premium" : "No Access"}
 <blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
 <blockquote>VinxzOfficial[🌚]</blockquote>
 `;
@@ -1569,14 +1569,14 @@ bot.on("callback_query", async (callbackQuery) => {
     newCaption =
 `<blockquote>👾𝚅𝙴𝙽𝙰𝚃𝙴𝚁𝙸𝚇 𝙸𝙽𝚅𝙸𝙲𝚃𝚄𝚂 </blockquote>
 <blockquote><pre>⬡═―—⊱ ⎧ 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗠𝗘𝗡𝗨 ⎭ ⊰―—═⬡</pre></blockquote>
-• /addprem - Input ID  
-• /delprem - Input ID  
-• /addadmin - Input ID  
-• /deladmin - Input ID  
-• /listprem - list premium  
-• /setjeda - s/m/d  
-• /connect - 62xx  
-• /gconly - on/off
+⫹⫺ /addprem - Input ID  
+⫹⫺ /delprem - Input ID  
+⫹⫺ /addadmin - Input ID  
+⫹⫺ /deladmin - Input ID  
+⫹⫺ /listprem - list premium  
+⫹⫺ /setjeda - s/m/d  
+⫹⫺ /connect - 62xx  
+⫹⫺ /gconly - on/off
 <blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
 <blockquote>VinxzOfficial[🌚]</blockquote>`;
 
@@ -1591,16 +1591,16 @@ bot.on("callback_query", async (callbackQuery) => {
     newCaption =
 `<blockquote>👾𝚅𝙴𝙽𝙰𝚃𝙴𝚁𝙸𝚇 𝙸𝙽𝚅𝙸𝙲𝚃𝚄𝚂</blockquote>
 <blockquote><pre>⬡═―—⊱ ⎧ 𝗧𝗢𝗢𝗟𝗦 𝗠𝗘𝗡𝗨 ⎭ ⊰―—═⬡</pre></blockquote>  
-• /convertstc - reply photo convert to stc    
-• /catbox - reply photo generate link catbox    
-• /csessions - steal sender    
-• /nikparse - nik parse    
-• /iqc - iqc tools    
-• /nsfw - 18+ search  
-• /info - reply or tag user info  
-• /cekganteng - cek ganteng  
-• /cekch - cek info channel
-• /getmediafire - download file - link Mediafire  
+⫹⫺ /convertstc - reply photo convert to stc    
+⫹⫺ /catbox - reply photo generate link catbox    
+⫹⫺ /csessions - steal sender    
+⫹⫺ /nikparse - nik parse    
+⫹⫺ /iqc - iqc tools    
+⫹⫺ /nsfw - 18+ search  
+⫹⫺ /info - reply or tag user info  
+⫹⫺ /cekganteng - cek ganteng  
+⫹⫺ /cekch - cek info channel
+⫹⫺ /getmediafire - download file - link Mediafire  
 <blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
 <blockquote>VinxzOfficial[🌚]</blockquote>`;
 
@@ -1616,23 +1616,23 @@ bot.on("callback_query", async (callbackQuery) => {
     newCaption =
 `<blockquote>👾𝚅𝙴𝙽𝙰𝚃𝙴𝚁𝙸𝚇 𝙸𝙽𝚅𝙸𝙲𝚃𝚄𝚂</blockquote>
 <blockquote><pre>⬡═―—⊱ ⎧ 𝗧𝗢𝗢𝗟𝗦 𝗠𝗘𝗡𝗨² ⎭ ⊰―—═⬡</pre></blockquote>  
-• /ig - ig tools    
-• /brat - stc brat    
-• /trackip - track ip    
-• /cekidch - cek id ch    
-• /tiktokdl - download vid tiktok  
-• /ipdomainc - chek ip url  
-• /pinterest - search pin  
-• /cekfunc - cek eror
-• /cekerr - cek error
-• /enchtml - enc html
-• /encjs - enc js
-• /unpin - unpin sematan
-• /unpinall - unpin all sematan 
-• /pinned - tampilkan all sematan
-• /pin - pin pesan
-• /cfixeror - cek eror + saran fix eror
-• /fixerorr - fix eror JavaScript otomatis
+⫹⫺ /ig - ig tools    
+⫹⫺ /brat - stc brat    
+⫹⫺ /trackip - track ip    
+⫹⫺ /cekidch - cek id ch    
+⫹⫺ /tiktokdl - download vid tiktok  
+⫹⫺ /ipdomainc - chek ip url  
+⫹⫺ /pinterest - search pin  
+⫹⫺ /cekfunc - cek eror
+⫹⫺ /cekerr - cek error
+⫹⫺ /enchtml - enc html
+⫹⫺ /encjs - enc js
+⫹⫺ /unpin - unpin sematan
+⫹⫺ /unpinall - unpin all sematan 
+⫹⫺ /pinned - tampilkan all sematan
+⫹⫺ /pin - pin pesan
+⫹⫺ /cfixeror - cek eror + saran fix eror
+⫹⫺ /fixerorr - fix eror JavaScript otomatis
 <blockquote>sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ</blockquote>
 <blockquote>VinxzOfficial[🌚]</blockquote>`;
 
