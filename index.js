@@ -1511,7 +1511,7 @@ bot.on("callback_query", async (callbackQuery) => {
 ⚊▣ /VenaUi 62xxx  
 ⚊▣ /VenaBlank 62xxx  
 ⚊▣ /Crot 62xxx  - combo all bug
-<blockquote>ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ ᴅɪ</blockquotee>`;
+ᴘɪʟɪʜ ʙᴜᴛᴛᴏɴ ᴅɪ`;
 
     newButtons = [
       [
@@ -5772,27 +5772,51 @@ bot.onText(/\/nsfw(?:\s+(.+))?/i, async (msg, match) => {
 
   try { if (wait) await bot.deleteMessage(chatId, wait.message_id); } catch {}
 });
+
 bot.onText(/\/update/, async (msg) => {
-    const chatId = msg.chat.id;
+    const chatId = msg.chat.id;
+    const repoRaw = "https://raw.githubusercontent.com/vinxz-dev/vinxzcrash/refs/heads/main/index.js";
+    const filePath = path.resolve(__dirname, "index.js");
 
-    const repoRaw = "https://raw.githubusercontent.com/NAMA-AKUN/NAMA-REPO/main/index.js";
+    bot.sendMessage(chatId, "⏳ Sedang mengecek update...");
 
-    bot.sendMessage(chatId, "⏳ Sedang mengecek update...");
+    try {
+        // Request dengan timeout
+        const { data } = await axios.get(repoRaw, {
+            timeout: 10000
+        });
 
-    try {
-        const { data } = await axios.get(repoRaw);
+        // Validasi
+        if (!data) {
+            return bot.sendMessage(chatId, "❌ Update gagal: File kosong!");
+        }
 
-        if (!data) return bot.sendMessage(chatId, "❌ Update gagal: File kosong!");
+        // Backup file lama
+        if (fs.existsSync(filePath)) {
+            fs.copyFileSync(filePath, `${filePath}.backup`);
+        }
 
-        fs.writeFileSync("./index.js", data);
+        // Tulis file baru
+        fs.writeFileSync(filePath, data);
+        
+        bot.sendMessage(chatId, "✅ Update berhasil!\n📁 Backup disimpan sebagai index.js.backup\n🔄 Silakan restart bot.");
 
-        bot.sendMessage(chatId, "✅ Update berhasil!\nSilakan restart bot.");
+        // Restart setelah 2 detik
+        setTimeout(() => {
+            process.exit();
+        }, 2000);
 
-        process.exit(); // restart jika pakai PM2
-    } catch (e) {
-        console.log(e);
-        bot.sendMessage(chatId, "❌ Update gagal. Pastikan repo dan file index.js tersedia.");
-    }
+    } catch (e) {
+        console.error('Update error:', e.message);
+        
+        if (e.code === 'ECONNABORTED') {
+            bot.sendMessage(chatId, "❌ Update gagal: Timeout koneksi!");
+        } else if (e.response?.status === 404) {
+            bot.sendMessage(chatId, "❌ Update gagal: File tidak ditemukan di repository!");
+        } else {
+            bot.sendMessage(chatId, "❌ Update gagal. Pastikan repo dan file index.js tersedia.");
+        }
+    }
 });
 bot.onText(/\/info(?: (.+))?/, async (msg, match) => {
   const chatId = msg.chat.id;
